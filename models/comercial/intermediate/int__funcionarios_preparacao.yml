@@ -1,0 +1,39 @@
+version : 2
+
+models:
+  - name: int__funcionarios_preparacao
+    description: Tabela de preparação dos dados de funcionarios
+    columns:
+      - name: pk_funcionario
+        description: blablabla
+        data_tests:
+          - unique
+          - not_null
+            
+      - name: fk_gerente
+        description: blablabla
+        
+      - name: nome_funcionario
+        description: blablabla
+        
+      - name: dt_nascimento_funcionario
+        description: blablabla
+        
+      - name: dt_contratacao
+        description: blablabla
+        
+      - name: cargo_funcionario
+        description: blablabla
+        
+      - name: cidade_funcionario
+        description: blablabla
+        
+      - name: regiao_funcionario
+        description: blablabla
+        
+      - name: pais_funcionario
+        description: blablabla
+        
+      - name: notas_funcionario
+        description: blablabla
+        
